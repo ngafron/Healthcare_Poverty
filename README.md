@@ -1,12 +1,11 @@
 Healthcare vs. Poverty
 
 Description:
-Create a scatter plot between two of the data variables such as Healthcare vs. Poverty utilizing d3 skills and data from the given csv file. Utilize HTML, CSS, Javascript, and D3
+- Create a scatter plot between two of the data variables such as Healthcare vs. Poverty utilizing d3 skills and data from the given csv file. Utilize HTML, CSS, Javascript, and D3
 
 Correlations Discovered Between Health Risks Income:
-    Based on the scatter plot, one can infer that as the poverty level increases, the number of individuals without healthcare generally     increases. There are some outliers in the dataset but by observing the plot, there seems to be a positive correlation between the       poverty percentage and the lacks healthcare percentage.
-
-    It would seem based on the data, that Texas is the major outlier in the dataset.  Although there are several states with a higher       percentage of poverty, Texas is the leading state in terms of citizens lacking healthcare on a percentage basis.  There seems to be     other forces at play but more research is needed to determine the cause.
+- Based on the scatter plot, one can infer that as the poverty level increases, the number of individuals without healthcare generally increases. There are some outliers in the dataset but by observing the plot, there seems to be a positive correlation between the poverty percentage and the lacks healthcare percentage.
+- It would seem based on the data, that Texas is the major outlier in the dataset.  Although there are several states with a higher percentage of poverty, Texas is the leading state in terms of citizens lacking healthcare on a percentage basis.  There seems to be other forces at play but more research is needed to determine the cause.
 ```
 d3.csv("assets/data/data.csv").then(function(health_data) {
 
